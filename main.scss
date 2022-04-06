@@ -1,0 +1,10 @@
+@use "abstracts" as *;
+@use "layout" as *;
+@use "base" as *;
+@use "components" as *;
+
+body {
+  background-color: $color1;
+  color: $color6;
+  font-family: Roboto, sans-serif;
+}

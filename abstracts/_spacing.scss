@@ -1,0 +1,38 @@
+$base-size: 0.25rem;
+
+@for $size from 1 through 12 {
+
+  // padding
+  .p-#{$size} {
+    padding: $size * $base-size;
+  }
+  .px-#{$size} {
+    padding-left: $size * $base-size;
+    padding-right: $size * $base-size;
+  }
+  .py-#{$size} {
+    padding-top: $size * $base-size;
+    padding-bottom: $size * $base-size;
+  }
+
+  // margin
+  .m-#{$size} {
+    margin: $size * $base-size;
+  }
+  .mx-#{$size} {
+    margin-left: $size * $base-size;
+    margin-right: $size * $base-size;
+  }
+  .my-#{$size} {
+    margin-top: $size * $base-size;
+    margin-bottom: $size * $base-size;
+  }
+
+  // space between
+  .space-x-#{$size} {
+    margin-left: $size * $base-size;
+  }
+  .space-y-#{$size} {
+    margin-top: $size * $base-size;
+  }
+}
